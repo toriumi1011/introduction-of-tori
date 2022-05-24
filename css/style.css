@@ -1,6 +1,11 @@
 *{
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+  
 }
+.main {
+ background-color:#f5f1ed;
+}
+
 
 .introimg {
   height: 250px;
@@ -8,8 +13,33 @@
 }
 
 #proimg{
+
   border-radius:50%;
-  width:200px;
+  width:250px;
   height: auto
 
+}
+.greeting{
+  text-align: center;
+}
+
+.greeting-h1{
+  padding-top:  150px;
+  padding-bottom: 40px;
+}
+
+.greeting-p{
+  padding-top: 30px;
+}
+.profile{
+  padding-top:100px;
+  padding-left: 500px;
+}
+
+ul{
+padding-top:15px;
+}
+li{
+  list-style: none;
+  padding-left:30px;
 }
