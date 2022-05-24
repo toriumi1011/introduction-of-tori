@@ -1,0 +1,16 @@
+*{
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.introimg {
+  height: 250px;
+  width: auto;
+
+}
+
+#proimg{
+  border-radius:50%;
+  width:200px;
+  height: auto
+
+}
