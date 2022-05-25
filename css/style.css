@@ -1,26 +1,31 @@
 *{
   font-family: 'Noto Sans JP', sans-serif;
+
   
 }
-.main {
- background-color:#f5f1ed;
+
+#main{
+  background-color: #f5f1ed;
+
 }
 
 
 .introimg {
-  height: 250px;
+  height: 400px;
   width: auto;
 }
 
 #proimg{
-
+  margin-top: 70px;
   border-radius:50%;
-  width:250px;
+  width:400px;
   height: auto
 
 }
 .greeting{
   text-align: center;
+  background-color: #f5f1ed;
+
 }
 
 .greeting-h1{
@@ -29,17 +34,75 @@
 }
 
 .greeting-p{
-  padding-top: 30px;
+  padding-top: 90px;
 }
 .profile{
   padding-top:100px;
-  padding-left: 500px;
+  padding-left: 580px;
+
 }
 
 ul{
-padding-top:15px;
+padding-top:50px;
 }
+
 li{
   list-style: none;
   padding-left:30px;
+}
+
+
+.work{
+  padding-top:80px;
+  padding-left:580px;
+}
+
+.work-p{
+  padding-top:50px;
+  padding-left: 60px;
+}
+.work-p2{
+  padding-left:60px;
+}
+
+.why{
+  padding-top:80px;
+  padding-left:580px;
+}
+
+.why-p{
+  padding-top:80px;
+  padding-left: 60px;
+}
+
+#whyimg{
+  margin-top:40px;
+  margin-left:60px;
+}
+.why-p2{
+  padding-top:40px ;
+  padding-left:60px;
+}
+.passion{
+  padding-top:100px;
+  padding-left: 580px;
+}
+
+.passion-p{
+  padding-top:60px;
+  padding-left: 60px;
+}
+
+.passion-p2{
+  padding-top:60px;
+  padding-left: 50px;
+  padding-bottom: 200px;
+}
+
+.form{
+  text-align:center;
+}
+input.form-control{
+  width:50%;
+  text-align: center;
 }

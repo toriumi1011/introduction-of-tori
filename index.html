@@ -45,7 +45,7 @@
         </div>
       </div>
     </nav>
-    <div class="main">
+    <div class="main" id="main">
       <div class="greeting">
         <h1 class="greeting-h1">はじめまして！</h1>
         <img
@@ -54,7 +54,7 @@
           src="./IMG_5472.JPG"
           alt="a singing man"
         />
-        <p class="greeting-p">鳥海光汰です！とりと呼んでください！</p>
+        <p class="greeting-p">鳥海光汰です！ "とり"と呼んでください！</p>
       </div>
       <div class="profile">
         <h2>プロフィール</h2>
@@ -69,25 +69,75 @@
           <li>座右の銘：vitoria</li>
         </ul>
       </div>
-      <h3>仕事について</h3>
-      <p>
-        現在は家庭教師とデリバリーのバイトをしています！<br />
-        プログラミングは初学者で、htmlとcssをかじった程度です。<br />
-      </p>
-      <h4>なぜ大学を卒業してから仕事をしていないか</h4>
-      <p>
-        大学4年生の三月から白血病と診断され、ほぼ一年間入院していました。<a
-          href="
+      <div class="work">
+        <h3>仕事について</h3>
+        <p class="work-p">現在は家庭教師とデリバリーのバイトをしています！</p>
+        <p class="work-p2">
+          プログラミングは初学者で、htmlとcssをかじった程度です。
+        </p>
+      </div>
+      <div class="why">
+        <h4>なぜ大学を卒業してから仕事をしていないか</h4>
+        <p class="why-p">
+          大学4年生の三月から白血病と診断され、ほぼ一年間入院していました。<a
+            href="
       白血病 - Wikipediahttps://ja.wikipedia.org › wiki › 白血病"
-          >白血病とは</a
-        >
-      </p>
-      <img class="introimg" src="./IMG_1062.JPG" alt="a sleeping man" />
-      <p>写真は抗がん剤を排出できなくなり、結構ピンチな時の自分です！笑</p>
-      <p>今（2022年5月現在）も通院しながら社会人になるのを目指しています。</p>
-      <p>
-        少しずつでも技術をつけて、たくさんお金を稼いで自分の健康保険分を納税したいです！笑
-      </p>
+            >白血病とは</a
+          >
+        </p>
+        <img
+          class="introimg"
+          id="whyimg"
+          src="./IMG_1062.JPG"
+          alt="a sleeping man"
+        />
+        <p class="why-p2">
+          写真は抗がん剤を排出できなくなり、結構ピンチな時の自分です！笑
+        </p>
+      </div>
+      <div class="passion">
+        <h5>意気込み</h5>
+        <p class="passion-p">
+          今（2022年5月現在）も通院しながら社会人になるのを目指しています。
+        </p>
+        <p class="passion-p2">
+          少しずつでも技術をつけて、たくさんお金を稼いで自分の健康保険分を納税したいです！笑
+        </p>
+      </div>
+      <div class="form">
+        <p>ご意見、ご感想等ございましたら、以下のフォームにご連絡ください</p>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="text">comment</label>
+
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="comment"
+              minlength="1"
+              maxlength="1000"
+              size="2000"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
