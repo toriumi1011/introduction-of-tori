@@ -25,7 +25,6 @@
 .greeting{
   text-align: center;
   background-color: #f5f1ed;
-
 }
 
 .greeting-h1{
@@ -38,17 +37,17 @@
 }
 .profile{
   padding-top:100px;
-  padding-left: 580px;
+text-align: center;
+
 
 }
 
-ul{
-padding-top:50px;
+.profile-list{
+  padding-top:50px;
 }
 
 li{
   list-style: none;
-  padding-left:30px;
 }
 
 
@@ -104,5 +103,4 @@ li{
 }
 input.form-control{
   width:50%;
-  text-align: center;
 }
