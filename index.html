@@ -45,7 +45,7 @@
         </div>
       </div>
     </nav>
-    <div id="main">
+    <div class="container main">
       <div class="greeting">
         <h1 class="greeting-h1">はじめまして！</h1>
         <img
@@ -104,38 +104,29 @@
           少しずつでも技術をつけて、たくさんお金を稼いで自分の健康保険分を納税したいです！笑
         </p>
       </div>
-      <div class="form">
-        <p>ご意見、ご感想等ございましたら、以下のフォームにご連絡ください</p>
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
+      <p>ご意見、ご感想等ございましたら、以下のフォームにご連絡ください</p>
+        <form"">
+          <div class="m-5">
+            <label for="exampleFormControlInput1" class="form-label"
               >Email address</label
             >
             <input
               type="email"
               class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
             />
-            <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
-            </div>
           </div>
-          <div class="mb-3">
-            <label for="text">comment</label>
-
-            <input
-              type="text"
+          <div class="m-5">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Example textarea</label
+            >
+            <textarea
               class="form-control"
-              id="name"
-              name="comment"
-              minlength="1"
-              maxlength="1000"
-              size="2000"
-            />
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
           </div>
-
-          <button type="submit" class="btn btn-dark">Submit</button>
         </form>
       </div>
     </div>
