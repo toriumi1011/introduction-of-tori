@@ -20,32 +20,24 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">とりの部屋</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="./index.html"
-              >HOME</a
-            >
-            <a class="nav-link" href="#">SNS</a>
-            <a class="nav-link" href="#">とりの猫の部屋</a>
-          </div>
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1 class="fw-light text-white m-0">Intoriduction of Tori</h1>
+        <div class="btn-group my-5">
+          <a href="#" class="btn btn-outline-light" aria-current="page"
+            ><i class="fas fa-file-download me-2"></i> ENTER</a
+          >
+          <a href="https://www.yahoo.co.jp/" class="btn btn-outline-light"
+            >EXIT <i class="fas fa-expand ms-2"></i
+          ></a>
         </div>
+        <a href="https://manuel.pinto.dev" class="text-decoration-none">
+          <h5 class="fw-light text-white m-0">— 鳥海光汰 —</h5>
+        </a>
       </div>
-    </nav>
-    <div class="container main">
+    </div>
+
+    <div class="container main fs-6">
       <div class="greeting">
         <h1 class="greeting-h1">はじめまして！</h1>
         <img
@@ -57,7 +49,7 @@
         <p class="greeting-p">鳥海光汰です！ "とり"と呼んでください！</p>
       </div>
       <div class="profile">
-        <h2>プロフィール</h2>
+        <h2 class="fs-2">プロフィール</h2>
         <ul class="profile-list">
           <li>誕生日：1998年10月11日</li>
           <li>最終学歴：大卒</li>
@@ -70,16 +62,19 @@
         </ul>
       </div>
       <div class="work">
-        <h3>仕事について</h3>
-        <p class="work-p">現在は家庭教師とデリバリーのバイトをしています！</p>
+        <h2 class="fs-2">仕事について</h2>
+        <p class="work-p">
+          現在は家庭教師とデリバリーのバイトをしています！<br />
+        </p>
         <p class="work-p2">
           プログラミングは初学者で、htmlとcssをかじった程度です。
         </p>
       </div>
       <div class="why">
-        <h4>なぜ大学を卒業してから仕事をしていないか</h4>
+        <h2 class="fs-2">なぜ大学を卒業してから仕事をしていないか</h2>
         <p class="why-p">
           大学4年生の三月から白血病と診断され、ほぼ一年間入院していました。<a
+            class="text-decoration-underline"
             href="
       白血病 - Wikipediahttps://ja.wikipedia.org › wiki › 白血病"
             >白血病とは</a
@@ -96,7 +91,8 @@
         </p>
       </div>
       <div class="passion">
-        <h5>意気込み</h5>
+        <h2 class="fs-2">意気込み</h2>
+
         <p class="passion-p">
           今（2022年5月現在）も通院しながら社会人になるのを目指しています。
         </p>
@@ -104,31 +100,32 @@
           少しずつでも技術をつけて、たくさんお金を稼いで自分の健康保険分を納税したいです！笑
         </p>
       </div>
-      <p>ご意見、ご感想等ございましたら、以下のフォームにご連絡ください</p>
-        <form"">
-          <div class="m-5">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-          <div class="m-5">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Example textarea</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-          </div>
-        </form>
-      </div>
+      <p class="comment-p">
+        ご意見、ご感想等ございましたら、以下のフォームにご連絡ください
+      </p>
+      <form>
+        <div class="m-5">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="m-5">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </form>
     </div>
   </body>
 </html>
