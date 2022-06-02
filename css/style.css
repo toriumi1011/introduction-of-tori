@@ -1,5 +1,5 @@
 *{
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'DotGothic16', sans-serif;
 }
 body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -21,19 +21,20 @@ body {
 }
 
 
-/* body {
-  background-color: #f5f1ed !important;
-} */
-
 .main{
   text-align: center;
   
 }
 
-.profile ,.work ,.why ,.passion,.profile-list{
+.work ,.why ,.passion,.profile-list{
   margin-top:10rem;
   
 } 
+
+
+.profile{
+  margin-top: 25rem;
+}
 
 h2,ul,p{
   text-align:left;
@@ -71,9 +72,60 @@ p{
 
 ul{
 list-style: none;
+
 }
 
 .form-group {
   width: 25vh;
 }
 
+
+/* responsive */
+
+  @media(max-width:845px){
+  html{
+  font-size: 87.5;
+}
+h2,ul,p{
+  margin: 0 auto; 
+}
+
+.work ,.why ,.passion,.profile-list{
+  margin-top:5rem;
+} 
+
+.profile{
+  margin-top: 13rem;
+}
+.introimg {
+  height: 12rem;
+}
+
+#proimg{
+  width: 15rem;
+}
+ } 
+
+ /* @media(max-width:600px){
+  html{
+  font-size: 87.5;
+}
+h2,ul,p{
+  margin: 0 auto; 
+}
+
+.work ,.why ,.passion,.profile-list{
+  margin-top:5rem;
+} 
+
+.profile{
+  margin-top: 13rem;
+}
+.introimg {
+  height: 12rem;
+}
+
+#proimg{
+  width: 15rem;
+}
+ }  */
