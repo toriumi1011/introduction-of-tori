@@ -12,6 +12,11 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,14 +33,14 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/index.html"
@@ -43,7 +48,16 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">decoration</a>
+              <a class="nav-link" href="#">Comment</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >飾り❤︎</a
+              >
             </li>
           </ul>
           <form class="d-flex">
@@ -140,32 +154,35 @@
           少しずつでも技術をつけて、たくさんお金を稼いで自分の健康保険分を納税したいです！笑
         </p>
       </div>
-      <p class="comment-p">
-        ご意見、ご感想等ございましたら、以下のフォームにご連絡ください
-      </p>
-      <form>
-        <div class="m-5">
-          <label for="exampleFormControlInput1" class="form-label"
-            >Email address</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
-            placeholder="name@example.com"
-          />
-        </div>
-        <div class="m-5">
-          <label for="exampleFormControlTextarea1" class="form-label"
-            >Example textarea</label
-          >
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-          ></textarea>
-        </div>
-      </form>
+      <div class="comment">
+        <p class="comment-p">
+          ご意見、ご感想等ございましたら、以下のフォームにご連絡ください
+        </p>
+        <form class="comment-form">
+          <div class="m-5">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="m-5">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >comment</label
+            >
+            <textarea
+              class="form-control comment-text"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+      <p>&copy;2022 Kouta Toriumi</p>
     </div>
   </body>
 </html>
